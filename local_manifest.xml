@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="los" fetch="https://github.com/LineageOS" />
+        <remote name="m" fetch="https://github.com/orgs/Exynos9611" /> 
+        
+<!-- DTs Tree -->
+        <project path="device/samsung/m30s" name="device_samsung_m30s" remote="m" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/samsung/m30s-common" name="device_samsung_m30s-common" remote="m" revision="lineage-18.1" clone-depth="1" />
+
+<!-- Vendor Tree -->
+        <project path="vendor/samsung/m30s" name="vendor_samsung_m30s" remote="m" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="m" revision="lineage-18.1" clone-depth="1" />
+
+<!-- Kernel Source -->
+        <project path="kernel/samsung/m30s" name="kernel_samsung_m30s" remote="m" revision="lineage-18.1" clone-depth="1" />
+
+</manifest>
